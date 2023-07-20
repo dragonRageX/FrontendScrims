@@ -1,0 +1,98 @@
+body
+{
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+  
+header nav
+{
+  width: 100vw;
+  background: #F55A5A;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel-journal
+{
+  color: white;
+  text-shadow: 1px -1px black, -1px 1px black, -1px -1px black, 1px 1px black,
+              2px 0 black, -2px 0 black, 0 2px black, 0 -2px black;
+  letter-spacing: -0.4px;
+  margin-left: 9px;
+}
+
+.card-container
+{
+  display: flex;
+  margin: 70px 40px 70px 40px;
+  min-height: 168px;
+}
+
+.attraction-image
+{
+  width: 125px;
+  border-radius: 5px;
+}
+
+.card-info-container
+{
+  margin-left: 20px;
+}
+
+.location-maps
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.location-maps p
+{
+  letter-spacing: 2px;
+}
+
+.location-maps a
+{
+  color: #918E9B;
+  margin-left: 25px;
+}
+
+.card-info-container h1
+{
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.card-info-container h5
+{
+  margin-bottom: 4px;
+}
+
+.gg-pin {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: rotate(45deg) scale(var(--ggs,1));
+  width: 18px;
+  height: 18px;
+  border-radius: 100% 100% 0 100%;
+  border: 2px solid #F55A5A;
+  margin-top: -4px;
+  margin-right: 4px;
+}
+.gg-pin::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #F55A5A;
+  top: 3px;
+  left: 3px;
+  border-radius: 40px
+}
